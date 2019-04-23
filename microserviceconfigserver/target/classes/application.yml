@@ -1,0 +1,7 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: microservice-config-server # 指定应用名称
+  profiles:
+    active: native   # 使用本地文件系统的存储方式来保存配置信息（git，svn）

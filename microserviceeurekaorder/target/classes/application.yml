@@ -1,0 +1,11 @@
+server:
+  port: 7900
+eureka:
+  instance:
+    prefer-ip-address: true #是否显示主机的IP
+  client:
+    service-url:
+      defaultZone: http://172.19.66.196:8761/eureka/           # 指定Eureka服务端地址
+spring:
+  application:
+    name: microservice-eureka-order # 指定应用名称
